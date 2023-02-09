@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 100px;
+    height: 90px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+
+
+.widget-heading {
+    list-style-type: none;
+    padding-left: 14px;
+}
+
+.widget_list {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+.btn:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: #5472A5;
+}
+
+main {
+    background-color: #99AED2;
+}

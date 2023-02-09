@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter-Thin', sans-serif;
+}
+
+main {
+    padding-left: 120px;
+    background-color: #99AED2;
+    min-height: 100vh;
+}
+
+.lesson-page-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_lesson {
+    padding-bottom: 71px;
+    background-color: white;
+    font-family: "Inter-Thin", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    border: 2px solid #5472A5;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.lesson_nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.lesson_text {
+    font-size: 24px;
+}
+
+.lesson_content {
+    width: 900px;
+    text-indent: 35px;
+    font-size: 24px;
+}
+
+.lesson_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.lesson_comment {
+    width: 900px;
+    height: 125px;
+    background-color: #5472A5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lesson_comment_text {
+    width: 900px;
+    height: 125px;
+    background-color: #5472A5;
+    display: flex;
+}
+
+.comment {
+    color: white;
+}
+
+.comment_flex {
+    padding: 10px;
+}
+
+.comment_icon {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+}
+
+.comment_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment_textarea {
+    margin-top: 10px;
+    width: 800px;
+    height: 75px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.btn_send {
+    background-color: #FCE1B1;
+    border: 1px;
+    width: 147px;
+    height: 22px;
+    margin-left: 52px;
+}
+
+.btn_send_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.comment_header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
